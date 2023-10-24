@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tailwind CSS Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--header--------------------------------------------------------------------------->
+    <header>
+
+    <!--topHeader--------------------------------------------------------------------------->
+        <div class="flex justify-between ">
+
+    <!--left side Header--------------------------------------------------------------------------->
+           <div class="flex items-center">
+            <div class="h-14 w-44 ml-24 pt-3">
+                <img src="https://shopfront.takealot.com/b0fd31305b6ec6eb9e374f5e527a4ad540896d49/static/media/src/images/logo.svg-f6ccb489b85bbddf97d6.svg" alt="" >
+            </div>
+
+                <ul class=" flex space-x-4 text-gray-900 text-sm cursor-pointer">
+                    <li class="border-r-2 pr-4 hover:text-blue-500">Help Center</li>
+                    <li class="hover:text-blue-500">Sell on Takealot</li>
+                </ul>
+           </div> 
+    <!--right side Header--------------------------------------------------------------------------->
+
+            <div class="flex items-center mr-20">
+                
+                <ul class=" flex space-x-4 text-gray-900 text-sm cursor-pointer">
+                    <li class="border-r-2 pr-4 hover:text-blue-500">Login</li>
+                    <li class="border-r-2 pr-4 hover:text-blue-500">Register</li>
+                    <li class="border-r-2 pr-4 hover:text-blue-500">Orders</li>
+                    <li class="hover:text-blue-500">
+                        <select name="myAccount" class="cursor-pointer" >
+                            <option value="myAccount"> My Account</option>
+                          <option value="myAccount">Track Orders</option>
+                          <option value="myAccount">Returns</option>
+                          <option value="myAccount">Invoices</option>
+                          <option value="myAccount">Personal <Details></Details></option>
+                          <option value="myAccount">Contact Us</option>
+                          </select>
+                    </li>
+                </ul>
+
+                <ul class="flex pr-2 pl-2 cursor-pointer">
+                    <li class="border-2 bg-red-400 rounded-full h-9 w-9 hover:bg-red-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-heart-fill mt-2.5 ml-2 items-center "  viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                          </svg></li>
+
+                    
+                </ul>
+                <ul class="flex border-2 bg-green-600 h-8 w-14 cursor-pointer justify-evenly hover:bg-green-700 rounded-full">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-cart-fill mt-1" viewBox="0 0 16 16">
+                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg>
+                </li>
+                <li class="text-white">0
+                </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!--bottomheader--------------------------------------------------------------------------->
+        <div style="background-color: #0b79bf;" class=" text-black h-20 pl-24">
+            <div class="flex">
+                <ul >
+                    <select name="" id="" class="bg-gray-600 hover:bg-gray-700 cursor-pointer  w-52 h-8 mt-2 text-white text-sm pl-4 rounded mr-6">
+                        <option value="" >Shop by Department</option>
+                        <option value="">Liquor</option>
+                        <option value="">Beauty</option>
+                        <option value="">Cosmetics</option>
+                    </select>
+                </ul>
+
+                <ul>
+                    <li class="pt-2  flex">
+                        <input class="h-8  ml-auto rounded text-sm pl-4 " style="width :120vh ;" placeholder="Search for products, brands..."><button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class=" cursor-pointer bi bi-search hover:bg-gray-700 bg-gray-600 h-8 w-12 pt-2 pb-2 text-white rounded " viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
